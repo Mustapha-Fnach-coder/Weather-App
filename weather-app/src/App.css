@@ -1,0 +1,24 @@
+.container {
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 35px;
+}
+
+.detail-card {
+  width: 150px; /* Largeur fixe pour les cartes */
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8); /* Fond semi-transparent */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.detail-card:hover {
+  transform: scale(1.05); /* Effet d'agrandissement au survol */
+}
+
+h1, h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
